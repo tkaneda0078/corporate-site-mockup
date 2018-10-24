@@ -17,7 +17,8 @@
 .nav-container {
   z-index: 900; }
 .nav-container > .logo {
-  float: left; }
+  float: left;
+  margin-left: 2rem; }
 
 /*------------------
   ナビタイトル
@@ -26,3 +27,17 @@
   color: #0C0C0C;
   font-size: 1.3rem;
   font-weight: 800; }
+
+/*----------------------------------------------------
+  メニュー
+----------------------------------------------------*/
+.menu {
+  padding: 80px 40px; }
+
+.treatment-menu {
+  border-radius: 20px; }
+.treatment-menu > .card > .img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0; }
