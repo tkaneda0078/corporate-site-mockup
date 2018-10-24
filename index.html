@@ -4,11 +4,25 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/uikit.min.css" />
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/uikit.min.js"></script>
 </head>
 <body class="body">
   <header class="header">
-
+    <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="autoplay: true, autoplay-interval: 2000">
+      <ul class="slideshow-images uk-slideshow-items">
+        <li>
+          <img class="img" src="images/sample1.jpg" alt="" uk-cover>
+        </li>
+        <li>
+          <img class="img" src="images/sample2.jpg" alt="" uk-cover>
+        </li>
+        <li>
+          <img class="img" src="images/sample3.jpg" alt="" uk-cover>
+        </li>
+      </ul>
+    </div>
   </header>
   <section class="about">
 

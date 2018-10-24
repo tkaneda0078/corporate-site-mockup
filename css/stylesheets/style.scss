@@ -9,3 +9,13 @@ $accentColor: #00AA90;
   color: $mainColor;
   font-family: 'Noto Sans', sans-serif;
 }
+
+/*----------------------------------------------------
+  スライドショー
+----------------------------------------------------*/
+.slideshow-images {
+  .img {
+    width: 100%;
+    height: auto;
+  }
+}
