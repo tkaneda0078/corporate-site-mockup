@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+$baseColor: #F4F5F7;
+$mainColor: #0C0C0C;
+$accentColor: #00AA90;
+
+.body {
+  background: $baseColor;
+  color: $mainColor;
+  font-family: 'Noto Sans', sans-serif;
+}
